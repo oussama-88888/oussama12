@@ -1,0 +1,35 @@
+<!doctype>
+<html>
+<head><title>jsksdjk</title></head>
+<body>
+<form>
+<fieldset>
+<legend>info personnels</legend>
+nom<input type="text" size="30" maxlength="20"><br>
+age<input type="text" ><br>
+email <input type="email" name="email"><br>
+password<input type="password" size="30" maxlength="20"><br>
+date de naissance<input type="date"  name="date"><br>
+ville<select>
+<option>tunis</option>
+<option>nabeul</option>
+<option>monastir</option>
+</select><br>
+joindre photo <input type="submit" value="choisiser un fichier" action="img">aucun fichier choisi <br>
+couleur preferes <input type="color">
+</fieldset>
+<fieldset>
+<legend>Competances</legend>
+niveau:<input type="radio" > licence <input type="radio" >mastere <input type="radio" >ingenieur<br>
+annee diplome:<input type="radio" >2015<input type="radio" >2016<input type="radio" >2017<br>
+language:  <input type="checkbox " > arabe<input type="checkbox " >francias <input type="checkbox " >anglais<br><br>
+commentaire<textarea rows="20" cols="100"></textarea>
+
+
+
+
+</fieldset><br>
+<input type="submit" value="envoyer"> <input type="reset" value="reset"><input type="submit" value="enregistrer">
+</form>
+
+</html>
